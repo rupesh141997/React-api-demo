@@ -1,0 +1,105 @@
+.m-3{
+     
+    /* background-color: aqua; */
+    /* width: 25rem;
+    height: 25rem; */
+}
+
+.m-3in{
+     height: 25rem;
+     width: 25rem;
+    display: flex;
+    flex-direction: column;
+    /* background-color: aqua; */
+    /* From https://css.glass */
+background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 2px solid rgba(255, 255, 255, 0.3);
+
+}
+.m-4{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+}
+.but{
+    background-color: black;
+    color: aliceblue;
+    height: 2rem;
+    width: 5rem;
+    border-radius: 2rem;
+    margin-left: 10rem;
+}
+
+.tit{
+        width: 15rem;
+        height: 2rem;
+        margin-top: 5rem;
+        margin-left: 1rem;
+        margin-bottom: 2rem;
+        border-radius: 2rem;
+        text-decoration: none;
+}
+label{
+    margin-left: 2rem;
+    /* margin-right: 1rem; */
+}
+
+.m-3 h1{
+    margin-left: 6rem;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+}
+
+@media (max-width:600px){
+    .m-3in{
+        height: 15rem;
+        width: 15rem;
+       display: flex;
+       flex-direction: column;
+       /* background-color: aqua; */
+       /* From https://css.glass */
+   background: rgba(255, 255, 255, 0.2);
+   border-radius: 16px;
+   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+   backdrop-filter: blur(5px);
+   -webkit-backdrop-filter: blur(5px);
+   border: 2px solid rgba(255, 255, 255, 0.3);
+   margin-left: 2rem;
+   
+   }
+
+   .m-3 h1{
+    margin-left: 4rem;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+
+.tit{
+    width: 8rem;
+    height: 2rem;
+    margin-top: 2rem;
+    /* margin-left: 1rem; */
+    margin-bottom: 1rem;
+    border-radius: 2rem;
+    text-decoration: none;
+}
+
+.but{
+    background-color: black;
+    color: aliceblue;
+    height: 1.5rem;
+    width: 4rem;
+    border-radius: 2rem;
+    margin-left: 6rem;
+}
+.m-3in{
+    padding-top: 2rem;
+}
+}

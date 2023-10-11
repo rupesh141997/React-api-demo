@@ -1,0 +1,51 @@
+
+
+.imgg{
+    /* background-color:black ; */
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin: 5rem;
+
+}
+
+ 
+
+.ix{
+    width:10rem;
+    height: 4rem;
+     
+}
+h4{
+    margin-top: 2rem;
+    margin-left: 10rem;
+    color: #000;
+    font-family: Roboto Condensed;
+    font-size: 1.5625rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.ix-2{
+    width: 8rem;
+    height: 3rem;
+     padding-bottom: 2rem;
+     margin-left: 10rem;
+    
+}
+
+@media (max-width:600px) {
+
+    .ix-2{
+    margin-left: 2rem;
+}
+    h4{
+        margin-left: 2rem;
+    }
+
+}
+ 
+
+ 

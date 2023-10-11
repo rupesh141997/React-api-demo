@@ -1,0 +1,121 @@
+
+
+.foot{
+    background: #F8F8F8;
+    padding: 2rem;
+    padding-left: 10rem;
+}
+
+.im{
+    display: flex;
+    gap: 1rem;
+    margin: 1rem;
+    height: 3rem;
+    width: 3rem;
+     
+
+}
+
+h3{
+    color: #000;
+font-family: Roboto Condensed;
+font-size: 1.5625rem;
+font-style: normal;
+font-weight: 700;
+
+line-height: normal;
+
+}
+.add-m{
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+    
+}
+
+
+.add{
+    width: 9.62rem;
+    color: #000;
+font-family: Roboto;
+font-size: 0.75rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.ph{
+    width: 5rem;
+    color: #000;
+font-family: Roboto;
+font-size: 0.75rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.rightf{
+    color: #000;
+font-family: Roboto;
+font-size: 0.75rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-left: 50rem;
+margin-top: -4rem;
+}
+
+.link{
+    margin-left: 1rem;
+    color: #000;
+font-family: Roboto;
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.rightf p{
+    width: 7rem;
+}
+
+
+
+@media (max-width:500px){
+
+    .rightf{
+    
+    margin-left: 0rem;
+    margin-top: 2rem;
+
+   
+    }
+    .foot{
+        height: 20rem;
+        padding-left: 2rem;
+        width: auto;
+        
+    }
+    .q{
+        height: 1rem;
+        width: 2rem;
+    }
+    .link{
+        margin-top: -1rem;
+    }
+}
+
+
+@media (min-width:600px)and (max-width:1000px) {
+    
+    .rightf{
+        
+        margin-left: 30rem;
+        
+        
+        
+    }
+    .foot{
+        height: 20rem;
+        
+    }
+     
+}
